@@ -501,7 +501,6 @@ body {
 }
 
 .footer-title {
-  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -510,16 +509,15 @@ body {
   margin-bottom: 16px;
 }
 
-.footer-subscribe-wrapper {
+.footer-subscribe-form {
   position: relative;
   display: flex;
-  gap: 24px;
-  justify-content: baseline;
 }
 
 .footer-subscribe-lable {
   margin-right: 24px;
 }
+
 
 .footer-input-mail {
   background-color: transparent;
