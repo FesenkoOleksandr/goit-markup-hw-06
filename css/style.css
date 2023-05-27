@@ -501,6 +501,7 @@ body {
 }
 
 .footer-title {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -516,10 +517,16 @@ body {
   justify-content: baseline;
 }
 
+.footer-subscribe-lable {
+  margin-right: 24px;
+}
+
 .footer-input-mail {
   background-color: transparent;
   border: 1px solid var(--main-background-text-color);
   width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   padding: 8px 16px;
@@ -544,11 +551,14 @@ body {
 .footer-btn-mail {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  align-items: center;
+  min-width: 165px;
+  height: 40px;
   background-color: var(--active-focus-hover-color);
   border: none;
   padding: 10px 24px;
   border-radius: 4px;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -567,6 +577,7 @@ body {
 
 .subscribe-send-icon {
   align-self: center;
+  margin-left: 16px;
 }
 
 .portfolio-main-section {
