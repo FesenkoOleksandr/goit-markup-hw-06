@@ -895,7 +895,7 @@ body {
   background-color: var(--botton-color);
   border: none;
   fill: var(--main-background-text-color);
-  border-color: var(--botton-color);
+  border-color: #404bbf;
 }
 
 .modal-form-text-term-link {
