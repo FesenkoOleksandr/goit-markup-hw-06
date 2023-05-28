@@ -895,15 +895,15 @@ body {
   opacity: 0;
 }
 
-.modal-form-text:checked + .modal-checkbox-icon {
-  background-color: var(--botton-color);
-  /* border: none; */
-  /* fill: var(--main-background-text-color); */
-  border-color: var(--botton-color);
+.modal-form-text:checked + .modal-checkbox-icon .checkbox-mark {
+  /* background-color: var(--botton-color);
+  border: none;
+  fill: var(--main-background-text-color);
+  border-color: var(--botton-color); */
+  opacity: 1;
 }
 
 /* .modal-form-text:checked + .modal-checkbox-icon .checkbox-mark {
-  opacity: 1;
 } */
 
 .modal-form-text-term-link {
