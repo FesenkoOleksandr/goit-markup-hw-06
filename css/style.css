@@ -797,8 +797,7 @@ body {
   background-color: transparent;
   outline: transparent;
   border-radius: 4px;
-  padding-left: 38px; 
-  margin-bottom: 8px;
+  padding-left: 38px;
   font-size: 12px;
   line-height: 1.17;
   color: var(--link-border-color);
